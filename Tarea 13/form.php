@@ -7,11 +7,21 @@
 </head>
 <body>
     <form action="logica.php">
-        <select class="combo">
-            <option value="Select">Select....</option>
-            <option value="html">HTML 5</option>
-            <option value="css">CSS 3</option>
+        <br><br>
+        Jugador1
+        <select name="Jugador1">
+            <option value="Piedra">Piedra</option>
+            <option value="Papel">Papel</option>
+            <option value="Tijeras">Tijeras</option>
         </select>
+        <br><br>
+        Jugador2
+        <select name="Jugador2">
+            <option value="Piedra">Piedra</option>
+            <option value="Papel">Papel</option>
+            <option value="Tijeras">Tijeras</option>
+        </select>
+        <br><br>
         <button>Jugar</button>
     </form>
 </body>
